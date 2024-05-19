@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Registration Form</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <h1>School Registration Form</h1>
+        
+    <div class="container">
+        <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="dob">Date of Birth:</label>
+              <input type="date" id="dob" name="dob" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="grade">Grade:</label>
+              <select id="grade" name="grade" required>
+                <option value="">Select Grade</option>
+                <option value="1">Grade 1</option>
+                <option value="2">Grade 2</option>
+                <option value="3">Grade 3</option>
+                <option value="4">Grade 4</option>
+                <option value="5">Grade 5</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="comments">Comments:</label>
+              <textarea id="comments" name="comments"></textarea>
+            </div>
+            
+            <div class="form-group">
+              <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
